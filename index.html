@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es_mx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UAEH - PLATAFORMA GARZA INICIO DE SESION ALUMNADO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/uaeh-icon.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="estilo/estilo.css" />
+    <link rel="stylesheet" href="estilo/formulariologin.css">
+    <script type="text/javascript" src="controlador/ajxfuncionMenu.js"></script>
+    <link rel="stylesheet" href="estilo/sweetalert.css" type="text/css"/>
+    <link href="estilo/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript">
+        function intro(e){
+            if (e.keyCode === 13 && !e.shiftKey) {
+                accesar();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="containerr">
+        <div class="row row-centered">
+            <div class="col-centered">
+                <a href="https://www.uaeh.edu.mx">
+                    <div class="logo hidden-xs"></div>
+                    <div id="encabezado_uaeh">Universidad Aut&oacute;noma del Estado de Hidalgo</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row-centrado rowbannertituloProfesorado"></div>
+    <div class="imgFondoindexGeneralAlumnado"></div>
+    <div class="fondomenutop">Plataforma Garza</div>
+    <div class="Contenido-Plataforma-Garza-Login titulobien" style="text-align: center; ">
+        <div class="titulo-acceso"><img class="imgGarza" src="img/Garza.png"><b style="font-size: 2em; margin-top: 2%; font-weight: 100;">ACCESO A ALUMNADO</b></div>
+        <!-- inicio bloque principal-->
+        <!-- login -->
+        <div class="login-page">
+            <div class="form">
+               <!-- <form class="register-form">
+                    <input type="text" placeholder="name" />
+                    <input type="password" placeholder="password" />
+                    <input type="text" placeholder="email address" />
+                    <button>create</button>
+                    <p class="message"><a href="#">Iniciar Sesión</a></p>
+                </form>-->
+                <form class="login-form" id="frmAcceso" name="frmAcceso" method="post" action="">
+                    <input name="txtUsuario" type="text" id="txtUsuario" placeholder="NO. DE CUENTA" />
+                    <input name="txtContrasenya" type="password" id="txtContrasenya"  placeholder="NIP" />
+                   <!--  <button type="button"  id="btnEntrar" > <a href="pg/vtaPrincipal.html"></a> Iniciar Sesi&oacute;n</button>-->
+                    <li><a href="pg/vtaPrincipal.html" class="btn">INICIAR SESIÓN</a></li>
+                    <p class="message">&iquest;Perdiste tu n&uacute;mero de cuenta o NIP?<br>
+                        <a onclick="popUpSolic('/dce/serv_alum/solNip.php');" href="#"><b>Solic&iacute;talo aqu&iacute;</b></a></p>
+                    <input type="hidden" id="username" name="username" value=""/>
+                <input type="hidden" id="sIdentificador" name="sIdentificador" value=""/>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- fin login -->
+    <!-- fin bloque principal-->
+    <!-- inicio de footer-->
+    <div class="footer">
+        <div class="footer-inner">
+            <div class="footer-text">
+                <p><a class="l" href="http://www.uaeh.edu.mx/" target="_self">Principal UAEH</a></p>
+                <br>
+            </div>
+        </div>
+        <div class="footer-background"></div>
+    </div>
+    <!--TERMINA FOOTER -->
+    <div class="logoDMYS">
+    </div>
+    <!-- fin de footer-->
+    <script type="text/javascript" src="jscript/jquery.min.js"></script>
+<script type="text/javascript" src="jscript/sweetalert.min.js"></script>
+<script type="text/javascript" src="jscript/ajxAcceso.js?v=1403985658"></script>
+<script type="text/javascript">
+    function popUpSolic(URL) {
+        day = new Date();
+        id = day.getTime();
+        eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0, scrollbars=1,location=0,statusbar=0, menubar=0, resizable=0, width=580, height=390,left = 0,top = 0');");
+    }
+</script>
+</body>
+
+</html> 

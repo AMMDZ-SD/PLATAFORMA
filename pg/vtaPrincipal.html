@@ -1,0 +1,110 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UAEH - PLATAFORMA GARZA2 ALUMNADO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--<script type="text/javascript" src="../_jscript/jquery.min.js"></script>
+    <script type="text/javascript" src="../_jscript/jqueryslidemenu.js"></script>
+    <script type="text/javascript" src="../_jscript/prototype-1.6.0.2.js"></script>
+    <script type="text/javascript" src="../_jscript/scriptaculous-js-1.8.1/src/scriptaculous.js?load=builder,effects"></script>
+    <script type="text/javascript" src="../_jscript/libFunc.js"></script>-->
+    
+    <link rel="shortcut icon" type="image/x-icon" href="uaeh-icon.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="estiloIPE.css" />
+    <link href="jqueryslidemenu.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="sweetalert.css" type="text/css"/>
+    <link href="font-awesome.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="ajxfuncionMenu.js"></script>
+</head>
+
+<body>
+    <div class="containerr">
+        <div class="row row-centered">
+            <div class="col-centered">
+                <a href="https://www.uaeh.edu.mx">
+                    <div class="logo hidden-xs"></div>
+                    <div id="encabezado_uaeh">Universidad Aut&oacute;noma del Estado de Hidalgo</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row-centrado texto-centrado rowbannertitulo">
+        <div id="tituloMicrositio" style="line-height: 0.75em;">ALUMNADO<br>
+            <b style="font-size: 22px;">MENDOZA MONTES ANDREA MONSERRAT                                                      </b><br>
+            <span style="font-size: 22px;"> No. de cuenta:</span>
+            <b style="font-size: 22px;">415431</b></div>
+        <div class="image-container">
+            <div class="hero-image">
+                <div class="container" id="MenuFirst">
+                    <a style="display: none;" href="#" onclick='opcionMenu(15)' class="btn" id="botongarza" > POSGRADO</a>
+                    <a style="display: block;" href="#" class="btn" id="botongarza" onclick='javascript:opcionMenuPlataformas(3)'> LICENCIATURA</a>
+                    <ul id="ulLicenciatura" style="display:none">
+                       <li>
+                            <a href="#" onclick='opcionMenu(131)' class="btn" id="botongarza" > ENERO-JUNIO 2022</a>
+                        </li> 
+                      <!--  <li>
+                            <a href="#" onclick='opcionMenu(13)' class="btn" id="botongarza" >JULIO-DICIEMBRE 2021</a>
+                        </li> -->
+                    </ul>
+                    <a style="display: none;" href="#" onclick='opcionMenuPlataformas(2)' class="btn" id="botongarza" > BACHILLERATO</a>
+                    <ul id="ulBachillerato" style="display:none">
+                         <li>
+                            <a href="#" onclick='opcionMenu(141)' class="btn" id="botongarza" > ENERO-JUNIO 2022</a>    
+                        </li> 
+                        <!--<li>
+                            <a href="#" onclick='opcionMenu(14)' class="btn" id="botongarza" > JULIO-DICIEMBRE 2021</a>
+                        </li> -->
+                        <li>
+                            <a href="#" onclick='opcionMenu(142)' class="btn" id="botongarza" >Servicio comunitario</a>    
+                        </li> 
+                    </ul>
+                    <!-- <a href='#' onclick='opcionMenu(0)' class="btn" id="botongarza"> PRESENCIAL</a> -->
+                    <a href='#' onclick='opcionMenu(11)'  class="btn" id="botongarza"> SUV</a>
+                    <a href='#' onclick='opcionMenu(12)' class="btn" id="botongarza"> DEMS</a>
+                    <a href='#' onclick='opcionMenu(9)' class="btn" id="botongarza"> AUTOAPRENDIZAJE</a>
+                    <a style="display: none;" href='http://lms.uaeh.edu.mx/simulador/index.html' target="_blank" class="btn" id="botongarza"> SIMULADOR</a>
+                    <a href="#" class="btn" id="botongarza" onclick="ChangeMenu(0);">Más...</a>
+                    <a href='#' onclick='cerrarSesionGeneral();' class="btn" id="botongarza"> CERRAR SESI&Oacute;N</a>
+                </div>
+                <div class="container-Sub" style="display:none" id="MenuSecond">
+                    <a href="#" class="btn-atras" id="botongarza" onclick="ChangeMenu(1);">IR ATRAS</a>
+                    <a href="http://200.57.63.146/garzadigital/index.html" target="_blank" class="btn" id="botongarza"> MOOCS</a>
+                    <a href="https://www.uaeh.edu.mx/division_academica/innovacion-academica/" class="btn" id="botongarza"> CONFERENCIAS GRABADAS</a>
+                    <a href="https://www.uaeh.edu.mx/dlcyt/" target="_blank" class="btn" id="botongarza"> LABORATORIOS</a>
+                </div>
+            </div>
+        <div>
+            <form action="" method="post" id="frmSistemas" name="frmSistemas">
+                <input type="hidden" id="hdnRol" name="hdnRol" value=""/>
+                <input type="hidden" id="username" name="username" value="415431"/>
+                <input type="hidden" id="password" name="password" value="415431"/>
+                <input type="hidden" id="identificadorID" name="identificadorID" value="0001bae922"/>
+            </form>
+        </div>
+        </div>
+        <div class="footer">
+            <div class="footer-inner">
+                <div class="footer-text">
+                    <p><a class="l" href="http://www.uaeh.edu.mx/" target="_self">Principal UAEH</a></p>
+                    <br>
+                </div>
+            </div>
+            <div class="footer-background"></div>
+        </div>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="sweetalert.min.js"></script>
+        <script type="text/javascript" src="ajxAcceso.js?v=1229390941"></script>
+        <script type="text/javascript" src="ajxPrincipal.js?v=67632047"></script>
+        <!--TERMINA FOOTER -->
+        <div class="logoDMYS">
+        </div>
+    </div>
+</body>
+
+</html>

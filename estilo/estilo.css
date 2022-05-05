@@ -1,0 +1,1589 @@
+/*=================== INICIO HEADER ==============*/
+
+.logo {
+    float: left;
+    margin-right: 2px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 100px;
+    height: 90px;
+    background-image: url(https://www.uaeh.edu.mx/images/uaeh.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:50px) and (max-width:279px) {
+    .hidden-xs {
+        display: none!important
+    }
+}
+
+.containerr {
+    background: #EAE3D8;
+}
+
+
+/* Responsive Header
+================================================== */
+
+.imgGarza {
+    margin-top: -2.5%;
+}
+
+.imgGarza {
+    width: 37px;
+    height: 50px;
+}
+
+#encabezado_uaeh {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #282828;
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    #encabezado_uaeh {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;
+    }
+}
+
+@-moz-document url-prefix() {
+    #encabezado_uaeh {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #encabezado_uaeh {
+        font-size: 24px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #encabezado_uaeh {
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 22px;
+        width: 100%;
+    }
+}
+
+
+/*Alineado vertical en columnas*/
+
+.vertical-align {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-align>[class^="col-"],
+.vertical-align>[class*=" col-"] {
+    display: flex;
+    align-items: center;
+    /* Align the flex-items vertically */
+    justify-content: center;
+    /* Optional, to align inner flex-items 
+                              horizontally within the column  */
+}
+
+.row {
+    margin-right: 0;
+}
+
+
+/* Centrado de columnas  */
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: center;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+
+/*COLOR DE FONDO MENU TOP*  #800101*/
+
+.fondomenutoplat {
+    background: #800101;
+    border-color: #800101;
+    margin-left: 0;
+}
+
+.fondomenutop {
+    background: #800101;
+    border-color: #800101;
+    color: white;
+    font-family: "Cinzel";
+    font-size: 2em;
+    text-align: center;
+}
+
+.fondologo {
+    background: #EAE3D8;
+}
+
+
+/*=================== FIN HEADER ==============*/
+
+#tituloMicrositio {
+    padding-top: 4px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    /* padding-right: 10px; */
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+
+.rowbannertitulo {
+    background: #706a5c;
+}
+
+.rowbannertituloProfesorado {}
+
+.texto-centrado {
+    text-align: center!important;
+    height: 100px;
+}
+
+.row-centrado {
+    text-align: center;
+    display: block;
+}
+
+#botongarza {
+    background-image: url(img/Garza.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 34px;
+    display: inline-block;
+    padding: 10px 15px 10px 37px;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #EAE3D8;
+    font-family: sans-serif;
+}
+
+.image-container {
+    width: 100%
+}
+
+.hero-image {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    background: url(../_img/alumnadonvo.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.hero-image-profesorado {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    background: url(../_img/profesoradogd.jpg);
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 45%;
+    left: 86%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container-Sub {
+    position: absolute;
+    top: 45%;
+    left: 86%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container h1 {
+    font-size: 72px;
+    letter-spacing: 0.2em;
+    margin: 0;
+}
+
+.container h1 span {
+    border: 10px solid white;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.des {
+    margin: 20px;
+    display: block;
+    font-size: 26px;
+    text-shadow: 0 0 10 0 black;
+}
+
+.btn {
+    display: block;
+    color: #313131;
+    margin: 10px;
+    width: 300px;
+    padding: 10px 24px;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    background: #FF9966;
+    border-radius: 8px;
+    transition: 0.3s all;
+    z-index: -2;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-atras {
+    display: block;
+    color: #313131;
+    margin: 10px;
+    width: 200px;
+    padding: 10px 24px;
+    font-size: 20px;
+    text-decoration: none;
+    background: #FF9966;
+    border-radius: 8px;
+    transition: 0.3s all;
+    z-index: -2;
+}
+
+.imgFondoindexGeneralProfesorado {
+    background-image: url(../_img/banner11.jpg);
+    min-height: 170px;
+    background-size: cover;
+}
+
+
+/*INICIA FOOTER*/
+
+.footer {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 45px;
+    margin: 0px auto 0px auto;
+}
+
+.footer-text {
+    display: inline-block;
+    color: #CFCFCF;
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 11px;
+}
+
+.footer-inner {
+    height: 1%;
+    position: relative;
+    z-index: 0;
+    padding: 8px;
+    text-align: center;
+}
+
+.footer-background {
+    position: absolute;
+    z-index: -1;
+    background-color: #801010;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .footer-text .footer-inner a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-decoration: underline;
+}
+
+.footer .footer-text a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-decoration: underline;
+}
+
+.footer .footer-text .footer-inner a:hover {
+    text-decoration: none;
+    color: #ECB14B;
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-decoration: none;
+}
+
+
+/*TERMINA FOOTER*/
+
+.logoDMYS {
+    width: 60px;
+    background-repeat: no-repeat;
+    height: 51px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-image: url(img/logodmys.png);
+    background-size: contain;
+}
+
+a {
+    color: white
+}
+
+a:hover {
+    color: white
+}
+
+
+/* ININIA CSS PAGINA PRINCIAPAL */
+
+
+/*COLOR DE FONDO MENU TOP*  #800101*/
+
+.fondomenutoplat {
+    background: #800101;
+    border-color: #800101;
+    margin-left: 0;
+}
+
+.fondomenutop {
+    background: #800101;
+    border-color: #800101;
+    color: white;
+    font-family: "Cinzel";
+    font-size: 2em;
+    text-align: center;
+}
+
+.fondologo {
+    background: #EAE3D8;
+}
+
+.imgFondoindexGeneral {
+    background-image: url("../_img/banner11.jpg");
+    min-height: 200px;
+    background-size: cover;
+}
+
+.titulobien {
+    text-align: center;
+    font-family: "Cinzel";
+    font-size: 1.5em;
+    color: #333333;
+    padding-bottom: 2%;
+    margin-top: 64px;
+}
+
+.btnuaeh-lg {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 300px;
+    height: 49px;
+    background-color: #800101;
+    color: white;
+    line-height: 50px;
+    margin-right: 2%;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Cinzel";
+}
+
+.btnuaeh-lg-atras {
+    display: block;
+    padding: 4px 0px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 91px;
+    height: 20px;
+    background-color: #800101;
+    color: white;
+    line-height: 21px;
+    margin-right: -53%;
+    margin-left: 85%;
+    margin-top: -11%;
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Cinzel";
+    transition: 0.3s all;
+}
+
+.btnuaeh-lg-Atras-Secu {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 183px;
+    height: 40px;
+    background-color: #800101;
+    color: white;
+    line-height: 50px;
+    margin-right: 2%;
+    font-weight: 100;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Cinzel";
+    line-height: 1;
+    transition: 0.3s all;
+}
+
+.btnUaeh {
+    font-size: 20px;
+    text-align: left;
+    margin: 13px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    transition: 0.3s all;
+}
+
+.Contenido-Plataforma-Garza {
+    background: #f5f5f5;
+    padding-bottom: 200px;
+    padding-top: 65px;
+}
+
+.imgFondoindexGeneralAlumnado {
+    background-image: url(img/banner12.jpg);
+    min-height: 160px;
+    background-size: cover;
+}
+
+.Contenido-Login {
+    background: #f5f5f5;
+    padding-bottom: 162px;
+    padding-top: 31px;
+}
+
+
+/* TERMINA CSS PAGINA PRINCIPAL */
+
+
+/* RESPONSIVE*/
+
+@media (min-width: 300px) {
+    .container {
+        position: absolute;
+        top: 49%;
+        left: 61%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-profesorado {
+        position: absolute;
+        top: 49%;
+        left: 61%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-Sub {
+        position: absolute;
+        top: 41%;
+        left: 62%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-Sub-profesorado {
+        position: absolute;
+        top: 41%;
+        left: 62%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .hero-image {
+        position: relative;
+        height: 514px;
+        overflow: hidden;
+        background: url(../_img/alumnadonvo.jpg);
+        background-size: cover;
+    }
+    .hero-image-profesorado {
+        position: relative;
+        height: 514px;
+        overflow: hidden;
+        background: url(../_img/fondo-mobile-profesorado.jpg);
+        background-size: cover;
+    }
+    .btn {
+        display: block;
+        color: #313131;
+        margin: 6px;
+        width: 246px;
+        padding: 10px 24px;
+        font-size: 16px;
+        text-align: left;
+        text-decoration: none;
+        background: #FF9966;
+        border-radius: 8px;
+        transition: 0.3s all;
+        z-index: -2;
+    }
+    .btn-atras {
+        display: block;
+        color: #313131;
+        margin: 10px 0 77px 186px;
+        width: 57px;
+        padding: 10px 24px;
+        font-size: 12px;
+        text-decoration: none;
+        background: #FF9966;
+        border-radius: 8px;
+        transition: 0.3s all;
+        z-index: -2;
+    }
+    #botongarza {
+        background-image: url(../_img/Garza.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 27px;
+        display: inline-block;
+        padding: 10px 15px 10px 37px;
+    }
+    .titulobien {
+        text-align: center;
+        font-family: "Cinzel";
+        font-size: 20px;
+        color: #333333;
+        padding-bottom: 0%;
+        margin-top: 0px;
+    }
+    .imgFondoindexGeneral {
+        background-image: url(../_img/banner11.jpg);
+        min-height: 121px;
+        background-size: cover;
+    }
+    .fondomenutop {
+        padding: 5px;
+        background: #800101;
+        border-color: #800101;
+        color: white;
+        font-family: "Cinzel";
+        font-size: 27px;
+        text-align: center;
+    }
+    .titulo-acceso {
+        padding-bottom: 10px;
+    }
+    .Contenido-Plataforma-Garza {
+        background: #f5f5f5;
+        padding-bottom: 200px;
+        padding-top: 65px;
+    }
+    .Contenido-Plataforma-Garza-Login {
+        background: #f5f5f5;
+        padding-bottom: 50px;
+        padding-top: 32px;
+    }
+    .btnuaeh-lg-atras {
+        display: block;
+        padding: 4px 0px;
+        margin-bottom: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        width: 91px;
+        height: 20px;
+        background-color: #800101;
+        color: white;
+        line-height: 21px;
+        margin-right: -53%;
+        margin-left: 70%;
+        margin-top: -83%;
+        margin-bottom: 56%;
+        font-weight: 300;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: "Cinzel";
+        transition: 0.3s all;
+    }
+    .btnuaeh-lg-Atras-Secu {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 10px;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        width: 300px;
+        height: 48px;
+        background-color: #800101;
+        color: white;
+        line-height: 50px;
+        margin-right: 2%;
+        font-weight: 100;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: "Cinzel";
+        line-height: 1;
+        transition: 0.3s all;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        position: absolute;
+        top: 49%;
+        left: 89%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-profesorado {
+        position: absolute;
+        top: 49%;
+        left: 89%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-Sub {
+        position: absolute;
+        top: 28%;
+        left: 90%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-Sub-profesorado {
+        position: absolute;
+        top: 41%;
+        left: 90%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .hero-image {
+        position: relative;
+        height: 520px;
+        overflow: hidden;
+        background: url(../_img/alumnadonvo.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .hero-image-profesorado {
+        position: relative;
+        height: 520px;
+        overflow: hidden;
+        background: url(../_img/profesoradogd.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .btn {
+        display: block;
+        color: #313131;
+        margin: 6px;
+        width: 169px;
+        padding: 10px 24px;
+        font-size: 12px;
+        text-align: left;
+        text-decoration: none;
+        background: #FF9966;
+        border-radius: 8px;
+        transition: 0.3s all;
+        z-index: -2;
+    }
+    .btn-atras {
+        display: block;
+        color: #313131;
+        margin: 10px 0 77px 120px;
+        width: 57px;
+        padding: 10px 24px;
+        font-size: 12px;
+        text-decoration: none;
+        background: #FF9966;
+        border-radius: 8px;
+        transition: 0.3s all;
+        z-index: -2;
+    }
+    #botongarza {
+        background-image: url(../_img/Garza.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 25px;
+        display: inline-block;
+        padding: 10px 15px 10px 37px;
+    }
+    .titulobien {
+        text-align: center;
+        font-family: "Cinzel";
+        font-size: 20px;
+        color: #333333;
+        padding-bottom: 0%;
+        margin-top: 0px;
+    }
+    .imgFondoindexGeneral {
+        background-image: url(../_img/banner11.jpg);
+        min-height: 170px;
+        background-size: cover;
+    }
+    .fondomenutop {
+        padding: 5px;
+        background: #800101;
+        border-color: #800101;
+        color: white;
+        font-family: "Cinzel";
+        font-size: 27px;
+        text-align: center;
+    }
+    .titulo-acceso {
+        padding-bottom: 40px;
+    }
+    .Contenido-Plataforma-Garza {
+        background: #f5f5f5;
+        padding-bottom: 200px;
+        padding-top: 65px;
+    }
+    .Contenido-Plataforma-Garza-Login {
+        background: #f5f5f5;
+        padding-bottom: 50px;
+        padding-top: 32px;
+    }
+    .btnuaeh-lg-atras {
+        display: block;
+        padding: 4px 0px;
+        margin-bottom: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        width: 91px;
+        height: 20px;
+        background-color: #800101;
+        color: white;
+        line-height: 21px;
+        margin-right: -53%;
+        margin-left: 81%;
+        margin-top: -28%;
+        margin-bottom: 35%;
+        font-weight: 300;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: "Cinzel";
+        transition: 0.3s all;
+    }
+}
+
+@media (max-width: 767px) {
+    .hidden-xs {
+        display: none!important;
+    }
+    #encabezado_uaeh {
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+        text-align: center;
+        width: 100%;
+        font-family: "Cinzel", serif;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        position: absolute;
+        top: 48%;
+        left: 86%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-profesorado {
+        position: absolute;
+        top: 48%;
+        left: 86%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-Sub {
+        position: absolute;
+        top: 28%;
+        left: 86%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-Sub-profesorado {
+        position: absolute;
+        top: 41%;
+        left: 86%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .hero-image {
+        position: relative;
+        height: 520px;
+        overflow: hidden;
+        background: url(../_img/alumnadonvo.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .hero-image-profesorado {
+        position: relative;
+        height: 520px;
+        overflow: hidden;
+        background: url(../_img/profesoradogd.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .btn {
+        display: block;
+        color: #313131;
+        margin: 5px;
+        width: 248px;
+        padding: 10px 24px;
+        font-size: 17px;
+        text-align: left;
+        text-decoration: none;
+        background: #FF9966;
+        border-radius: 8px;
+        transition: 0.3s all;
+        z-index: -2;
+    }
+    .btn-atras {
+        display: block;
+        color: #313131;
+        margin: 10px 0 77px 175px;
+        width: 80px;
+        padding: 10px 24px;
+        font-size: 17px;
+        text-decoration: none;
+        background: #FF9966;
+        border-radius: 8px;
+        transition: 0.3s all;
+        z-index: -2;
+    }
+    #botongarza {
+        background-image: url(../_img/Garza.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 24px;
+        display: inline-block;
+        padding: 10px 15px 10px 37px;
+    }
+    .Contenido-Plataforma-Garza {
+        background: #f5f5f5;
+        padding-bottom: 200px;
+        padding-top: 65px;
+    }
+    .Contenido-Plataforma-Garza-Login {
+        background: #f5f5f5;
+        padding-bottom: 50px;
+        padding-top: 32px;
+    }
+    .btnuaeh-lg-atras {
+        display: block;
+        padding: 4px 0px;
+        margin-bottom: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        width: 91px;
+        height: 20px;
+        background-color: #800101;
+        color: white;
+        line-height: 21px;
+        margin-right: -53%;
+        margin-left: 73%;
+        margin-top: -19%;
+        margin-bottom: 23%;
+        font-weight: 300;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: "Cinzel";
+        transition: 0.3s all;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        position: absolute;
+        top: 48%;
+        left: 85%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-profesorado {
+        position: absolute;
+        top: 48%;
+        left: 85%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-Sub {
+        position: absolute;
+        top: 25%;
+        left: 86%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-Sub-profesorado {
+        position: absolute;
+        top: 37%;
+        left: 86%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .hero-image {
+        position: relative;
+        height: 637px;
+        overflow: hidden;
+        background: url(../_img/alumnadonvo.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .hero-image-profesorado {
+        position: relative;
+        height: 637px;
+        overflow: hidden;
+        background: url(../_img/profesoradogd.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .btn {
+        display: block;
+        color: #313131;
+        margin: 5px;
+        width: 348px;
+        padding: 10px 24px;
+        font-size: 23px;
+        text-align: left;
+        text-decoration: none;
+        background: #FF9966;
+        border-radius: 8px;
+        transition: 0.3s all;
+        z-index: -2;
+    }
+    .btn-atras {
+        display: block;
+        color: #313131;
+        margin: 10px 0 77px 186px;
+        width: 90px;
+        padding: 10px 24px;
+        font-size: 18px;
+        text-decoration: none;
+        background: #FF9966;
+        border-radius: 8px;
+        transition: 0.3s all;
+        z-index: -2;
+    }
+    #botongarza {
+        background-image: url(../_img/Garza.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 24px;
+        display: inline-block;
+        padding: 10px 15px 10px 37px;
+    }
+    .Contenido-Plataforma-Garza {
+        background: #f5f5f5;
+        padding-bottom: 200px;
+        padding-top: 65px;
+    }
+    .btnuaeh-lg-atras {
+        display: block;
+        padding: 4px 0px;
+        margin-bottom: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        width: 91px;
+        height: 20px;
+        background-color: #800101;
+        color: white;
+        line-height: 21px;
+        margin-right: -53%;
+        margin-left: 84%;
+        margin-top: -10%;
+        margin-bottom: 5%;
+        font-weight: 300;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: "Cinzel";
+        transition: 0.3s all;
+    }
+}
+
+@media (min-width: 1919px) {
+    .container {
+        position: absolute;
+        top: 48%;
+        left: 85%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-profesorado {
+        position: absolute;
+        top: 48%;
+        left: 85%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .container-Sub-profesorado {
+        position: absolute;
+        top: 34%;
+        left: 86%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .hero-image {
+        position: relative;
+        height: 844px;
+        overflow: hidden;
+        background: url(../_img/alumnadonvo.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .hero-image-profesorado {
+        position: relative;
+        height: 844px;
+        overflow: hidden;
+        background: url(../_img/profesoradogd.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .btn {
+        display: block;
+        color: #313131;
+        margin: 7px;
+        width: 496px;
+        padding: 10px 24px;
+        font-size: 30px;
+        text-align: left;
+        text-decoration: none;
+        background: #FF9966;
+        border-radius: 8px;
+        transition: 0.3s all;
+        z-index: -2;
+    }
+    .btn-atras {
+        display: block;
+        color: #313131;
+        margin: 10px 0 77px 404px;
+        width: 90px;
+        padding: 10px 24px;
+        font-size: 18px;
+        text-decoration: none;
+        background: #FF9966;
+        border-radius: 8px;
+        transition: 0.3s all;
+        z-index: -2;
+    }
+    #botongarza {
+        background-image: url(../_img/Garza.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 37px;
+        display: inline-block;
+        padding: 10px 15px 10px 37px;
+    }
+    .container-Sub {
+        position: absolute;
+        top: 25%;
+        left: 86%;
+        padding-right: 100px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+
+/******************************************* BOTONES ************************************************/
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+
+.z-depth-1,
+nav,
+.card-panel,
+.card,
+.toast,
+.btn,
+.btn-large,
+.btn-small,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.sidenav {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.z-depth-1-half,
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover,
+.btn-floating:hover {
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+nav ul a.btn,
+nav ul a.btn-large,
+nav ul a.btn-small,
+nav ul a.btn-large,
+nav ul a.btn-flat,
+nav ul a.btn-floating {
+    margin-top: -2px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #ffab40;
+    margin-right: 24px;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+    color: #ffd8a6;
+}
+
+.btn,
+.btn-large,
+.btn-small,
+.btn-flat {
+    border: none;
+    border-radius: 7px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.btn,
+.btn-large,
+.btn-small,
+.btn-floating,
+.btn-large,
+.btn-small,
+.btn-flat {
+    font-size: 14px;
+    outline: 0;
+}
+
+.btn i,
+.btn-large i,
+.btn-small i,
+.btn-floating i,
+.btn-large i,
+.btn-small i,
+.btn-flat i {
+    font-size: 1.3rem;
+    line-height: inherit;
+}
+
+.btn:focus,
+.btn-large:focus,
+.btn-small:focus,
+.btn-floating:focus {
+    background-color: #800101;
+}
+
+.btn,
+.btn-large,
+.btn-small {
+    text-decoration: none;
+    color: #fff;
+    background-color: #800101;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+    background-color: #800101;
+}
+
+.btn-large {
+    height: 54px;
+    width: 300px;
+    line-height: 54px;
+    font-size: 29px;
+    padding: 0 28px;
+    margin-bottom: 15px;
+}
+
+.btn-large i {
+    font-size: 1.6rem;
+}
+
+.file-field .btn,
+.file-field .btn-large,
+.file-field .btn-small {
+    float: left;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.dropdown-content {
+    background-color: #fff;
+    margin: 0;
+    display: none;
+    min-width: 100px;
+    overflow-y: auto;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.dropdown-content:focus {
+    outline: 0;
+}
+
+.dropdown-content li {
+    clear: both;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: pointer;
+    min-height: 50px;
+    line-height: 1.5rem;
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown-content li:hover,
+.dropdown-content li.active {
+    background-color: #eee;
+}
+
+.dropdown-content li:focus {
+    outline: none;
+}
+
+.dropdown-content li.divider {
+    min-height: 0;
+    height: 1px;
+}
+
+.dropdown-content li>a,
+.dropdown-content li>span {
+    font-size: 27px;
+    color: #800101;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+
+.dropdown-content li>span>label {
+    top: 1px;
+    left: 0;
+    height: 18px;
+}
+
+.dropdown-content li>a>i {
+    height: inherit;
+    line-height: inherit;
+    float: left;
+    margin: 0 24px 0 0;
+    width: 24px;
+}
+
+body.keyboard-focused .dropdown-content li:focus {
+    background-color: #dadada;
+}
+
+.input-field.col .dropdown-content [type="checkbox"]+label {
+    top: 1px;
+    left: 0;
+    height: 18px;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.dropdown-trigger {
+    cursor: pointer;
+}
+
+.divider {
+    height: 1px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+}
+
+i {
+    line-height: inherit;
+}
+
+i.left {
+    float: left;
+    margin-right: 15px;
+}
+
+i.right {
+    float: right;
+    margin-left: 15px;
+}
+
+i.tiny {
+    font-size: 1rem;
+}
+
+i.small {
+    font-size: 2rem;
+}
+
+i.medium {
+    font-size: 4rem;
+}
+
+i.large {
+    font-size: 6rem;
+}
+
+ul:not(.browser-default) {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+ul:not(.browser-default)>li {
+    list-style-type: none;
+}
+
+ul,
+menu,
+dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.tabs .tab a {
+    color: rgba(238, 110, 115, 0.7);
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 24px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: color .28s ease, background-color .28s ease;
+    transition: color .28s ease, background-color .28s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    will-change: opacity, transform;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.waves-effect .waves-ripple {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    -ms-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    pointer-events: none;
+}
+
+.waves-effect.waves-light .waves-ripple {
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+
+/******************************************* BOTONES ************************************************/

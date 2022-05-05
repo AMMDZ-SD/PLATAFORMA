@@ -1,0 +1,1114 @@
+/*=================== INICIO HEADER ==============*/
+.logo {
+	float: left;
+	margin-right: 2px;
+	margin-top:12px;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-bottom:0px;
+	width:100px;
+	height:90px;
+	background-image:url(https://www.uaeh.edu.mx/images/uaeh.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+@media (min-width:50px) and (max-width:279px){.hidden-xs{display:none!important}}
+.containerr{
+	background: #EAE3D8;
+}
+/* Responsive Header
+================================================== */
+
+
+#encabezado_uaeh {
+	padding-top:40px; 
+	padding-bottom:20px; 
+	padding-left:10px; 
+	padding-right:10px; 
+	float:left; 
+	text-align:center;
+	font-family:"Cinzel", serif;
+  text-transform: uppercase;
+	font-size:30px;
+	color:#282828;
+}
+
+@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none){
+
+	#encabezado_uaeh {
+		padding-top:40px; 
+		padding-bottom:20px; 
+		padding-left:10px; 
+		padding-right:10px; 
+		font-size:20px;
+	}
+
+}
+
+@-moz-document url-prefix() {
+    #encabezado_uaeh {
+		padding-top:40px; 
+		padding-bottom:20px; 
+		padding-left:10px; 
+		padding-right:10px; 
+		font-size:20px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+ #encabezado_uaeh {
+	font-size:24px;
+	padding-left:10px;
+	padding-right:10px;
+	text-align:center;
+}
+}
+ @media only screen and (max-width: 767px) {
+ #encabezado_uaeh {
+	padding-top:10px; 
+	padding-left:0px;
+	padding-right:0px; 
+	padding-bottom:10px; 
+	text-align:center;
+	font-size:22px;
+	width:100%;
+}
+}
+
+
+
+/*Alineado vertical en columnas*/
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+}
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;     /* Align the flex-items vertically */
+  justify-content: center; /* Optional, to align inner flex-items 
+                              horizontally within the column  */
+}
+
+.row{ margin-right:0;}
+/* Centrado de columnas  */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align: center;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+/*COLOR DE FONDO MENU TOP*  #800101*/
+.fondomenutoplat {background:#800101;  border-color:#800101; margin-left:0;}
+.fondomenutop {background:#800101; border-color:#800101;color: white; font-family: "Cinzel"; font-size: 2em; text-align: center;}
+.fondologo { background:#EAE3D8;}
+
+/*=================== FIN HEADER ==============*/
+#tituloMicrositio {
+    padding-top: 4px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    /* padding-right: 10px; */
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+.rowbannertitulo {
+    background: #706a5c;
+}
+.rowbannertituloProfesorado{
+}
+.texto-centrado {
+    text-align: center!important;
+    height: 100px;
+}
+.row-centrado {
+    text-align: center;
+    display: block;
+}
+
+#botongarza{
+  background-image: url(pg/Garza.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 34px;
+  display: inline-block;
+  padding: 10px 15px 10px 37px;
+
+}
+
+
+body,html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #EAE3D8;
+  font-family: sans-serif;
+
+}
+.image-container{
+width: 100%
+}
+.hero-image{
+  position: relative;
+  height: 700px;
+  overflow: hidden;
+  background: url(pg/alumnadonvo.jpg) no-repeat center;
+  background-size: cover;
+}
+.hero-image-profesorado{
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    background: url(pg/profesoradogd.jpg);
+    background-size: cover;  
+}
+.container{
+  position: absolute;
+  top: 45%;
+  left: 86%;
+  padding-right: 100px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.container-Sub{
+  position: absolute;
+  top: 45%;
+  left: 86%;
+  padding-right: 100px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.container h1{
+  font-size: 72px;
+  letter-spacing: 0.2em;
+  margin: 0;
+}
+.container h1 span{
+  border: 10px solid white;
+  padding: 6px 14px;
+  display: inline-block;
+
+}
+.des{
+  margin: 20px;
+  display: block;
+  font-size: 26px;
+  text-shadow: 0 0 10 0 black;
+}
+.btn{
+  display: block;
+  color: #313131;
+  margin: 10px;
+  width: 300px;
+  padding: 10px 24px;
+  font-size: 20px;
+  text-align: left;
+  text-decoration: none;
+  background: #FF9966;
+  border-radius: 8px;
+  transition: 0.3s all;
+  z-index: -2;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+.btn-atras{
+  display: block;
+  color: #313131;
+  margin: 10px;
+  width: 200px;
+  padding: 10px 24px;
+  font-size: 20px;
+  text-decoration: none;
+  background: #FF9966;
+  border-radius: 8px;
+  transition: 0.3s all;
+  z-index: -2;
+
+}
+.imgFondoindexGeneralProfesorado{
+  background-image: url(pg/banner11.jpg);
+  min-height: 170px;
+  background-size: cover;
+}
+
+/*INICIA FOOTER*/
+
+.footer {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 45px;
+    margin: 0px auto 0px auto;
+}
+
+.footer-text {
+    display: inline-block;
+    color: #CFCFCF;
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 11px;
+}
+
+.footer-inner {
+    height: 1%;
+    position: relative;
+    z-index: 0;
+    padding: 8px;
+    text-align: center;
+}
+
+.footer-background {
+    position: absolute;
+    z-index: -1;
+    background-color: #801010;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .footer-text .footer-inner a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-decoration: underline;
+}
+
+.footer .footer-text a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-decoration: underline;
+}
+
+.footer .footer-text .footer-inner a:hover {
+    text-decoration: none;
+    color: #ECB14B;
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-decoration: none;
+}
+
+
+/*TERMINA FOOTER*/
+
+.logoDMYS {
+    width: 60px;
+    background-repeat: no-repeat;
+    height: 51px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-image: url(pg/logodmys.png);
+    background-size: contain;
+}
+
+a{
+  color: white
+}
+a:hover{
+  color: white
+}
+
+/* ININIA CSS PAGINA PRINCIAPAL */
+/*COLOR DE FONDO MENU TOP*  #800101*/
+.fondomenutoplat {background:#800101;  border-color:#800101; margin-left:0;}
+.fondomenutop {background:#800101; border-color:#800101;color: white; font-family: "Cinzel"; font-size: 2em; text-align: center;}
+.fondologo { background:#EAE3D8;}
+.imgFondoindexGeneral{
+	background-image: url("pg/banner11.jpg");
+	min-height: 200px;
+	background-size: cover;
+}
+.titulobien{
+	text-align: center;
+	font-family: "Cinzel";
+	font-size: 1.5em;
+	color: #333333;
+	padding-bottom: 2%;
+	margin-top: 64px;
+}
+.btnuaeh-lg{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    font-size: 24px;
+	font-weight: bold;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 300px;
+	height: 49px;
+	background-color: #800101;
+	color: white;
+	line-height: 50px;
+	margin-right: 2%;
+	font-weight: 500;
+	text-decoration: none;
+	cursor: pointer;
+	font-family: "Cinzel";
+}
+.btnuaeh-lg-atras {
+  display: block;
+  padding: 4px 0px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 91px;
+  height: 20px;
+  background-color: #800101;
+  color: white;
+  line-height: 21px;
+  margin-right: -53%;
+  margin-left: 85%;
+  margin-top: -11%;
+  font-weight: 300;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Cinzel";
+  transition: 0.3s all;
+}
+.btnuaeh-lg-Atras-Secu{    
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 183px;
+  height: 40px;
+  background-color: #800101;
+  color: white;
+  line-height: 50px;
+  margin-right: 2%;
+  font-weight: 100;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Cinzel";
+  line-height: 1;
+  transition: 0.3s all;
+}
+.btnUaeh{
+  font-size: 20px;
+  text-align: left;
+  margin: 13px;
+  border: none;
+  cursor: pointer;
+  width: 250px;
+	transition: 0.3s all;
+}
+.contenidoOfertaEducativa {
+    background: #f5f5f5;
+    padding-bottom: 162px;
+    padding-top: 31px;
+}
+.imgFondoindexGeneralAlumnado{
+    background-image: url(pg/banner12.jpg);
+    min-height: 160px;
+    background-size: cover;
+}
+/* TERMINA CSS PAGINA PRINCIPAL */
+
+
+/* RESPONSIVE*/
+@media (min-width: 300px){
+  .container {
+    position: absolute;
+    top: 49%;
+    left: 61%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-profesorado {
+    position: absolute;
+    top: 49%;
+    left: 61%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-Sub {
+    position: absolute;
+    top: 41%;
+    left: 62%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-Sub-profesorado {
+    position: absolute;
+    top: 41%;
+    left: 62%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+  .hero-image {
+    position: relative;
+    height: 514px;
+    overflow: hidden;
+    background: url(pg/fondo-mobile.jpg);
+    background-size: cover;
+}
+.hero-image-profesorado{
+    position: relative;
+    height: 514px;
+    overflow: hidden;
+    background: url(pg/fondo-mobile-profesorado.jpg);
+    background-size: cover;  
+}
+  .btn {
+    display: block;
+    color: #313131;
+    margin: 6px;
+    width: 246px;
+    padding: 10px 24px;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: none;
+    background: #FF9966;
+    border-radius: 8px;
+    transition: 0.3s all;
+    z-index: -2;
+  }
+  .btn-atras {
+    display: block;
+    color: #313131;
+    margin: 10px 0 77px 186px;
+    width: 57px;
+    padding: 10px 24px;
+    font-size: 12px;
+    text-decoration: none;
+    background: #FF9966;
+    border-radius: 8px;
+    transition: 0.3s all;
+    z-index: -2;
+}
+  #botongarza {
+    background-image: url(pg/Garza.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 27px;
+    display: inline-block;
+    padding: 10px 15px 10px 37px;
+}
+.titulobien {
+    text-align: center;
+    font-family: "Cinzel";
+    font-size: 20px;
+    color: #333333;
+    padding-bottom: 0%;
+    margin-top: 0px;
+}
+.imgFondoindexGeneral {
+    background-image: url(pg/banner11.jpg);
+    min-height: 121px;
+    background-size: cover;
+}
+.fondomenutop {
+    padding: 5px;
+    background: #800101;
+    border-color: #800101;
+    color: white;
+    font-family: "Cinzel";
+    font-size: 27px;
+    text-align: center;
+}
+.titulo-acceso{
+  padding-bottom: 60px;
+}
+.contenidoOfertaEducativa {
+    background: #f5f5f5;
+    padding-bottom: 285px;
+    padding-top: 31px;
+}
+.btnuaeh-lg-atras {
+    display: block;
+    padding: 4px 0px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 91px;
+    height: 20px;
+    background-color: #800101;
+    color: white;
+    line-height: 21px;
+    margin-right: -53%;
+    margin-left: 70%;
+    margin-top: -83%;
+    margin-bottom: 56%;
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Cinzel";
+    transition: 0.3s all;
+}
+.btnuaeh-lg-Atras-Secu {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 300px;
+    height: 48px;
+    background-color: #800101;
+    color: white;
+    line-height: 50px;
+    margin-right: 2%;
+    font-weight: 100;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Cinzel";
+    line-height: 1;
+    transition: 0.3s all;
+}
+}
+@media (min-width: 768px) {
+.container {
+    position: absolute;
+    top: 49%;
+    left: 89%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+.container-profesorado {
+ position: absolute;
+    top: 49%;
+    left: 89%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-Sub {
+    position: absolute;
+    top: 28%;
+    left: 90%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-Sub-profesorado {
+    position: absolute;
+    top: 41%;
+    left: 90%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.hero-image {
+    position: relative;
+    height: 520px;
+    overflow: hidden;
+    background: url(pg/alumnadonvo.jpg) no-repeat center;
+    background-size: cover;
+}
+.hero-image-profesorado{
+    position: relative;
+    height: 520px;
+    overflow: hidden;
+    background: url(pg/profesoradogd.jpg) no-repeat center;
+    background-size: cover;  
+}
+.btn {
+    display: block;
+    color: #313131;
+    margin: 6px;
+    width: 169px;
+    padding: 10px 24px;
+    font-size: 12px;
+    text-align: left;
+    text-decoration: none;
+    background: #FF9966;
+    border-radius: 8px;
+    transition: 0.3s all;
+    z-index: -2;
+  }
+  .btn-atras {
+    display: block;
+    color: #313131;
+    margin: 10px 0 77px 120px;
+    width: 57px;
+    padding: 10px 24px;
+    font-size: 12px;
+    text-decoration: none;
+    background: #FF9966;
+    border-radius: 8px;
+    transition: 0.3s all;
+    z-index: -2;
+}
+#botongarza {
+    background-image: url(pg/Garza.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 25px;
+    display: inline-block;
+    padding: 10px 15px 10px 37px;
+}
+.titulobien {
+    text-align: center;
+    font-family: "Cinzel";
+    font-size: 20px;
+    color: #333333;
+    padding-bottom: 0%;
+    margin-top: 0px;
+}
+.imgFondoindexGeneral {
+    background-image: url(pg/banner11.jpg);
+    min-height: 170px;
+    background-size: cover;
+}
+.fondomenutop {
+    padding: 5px;
+    background: #800101;
+    border-color: #800101;
+    color: white;
+    font-family: "Cinzel";
+    font-size: 27px;
+    text-align: center;
+}
+.titulo-acceso{
+  padding-bottom: 40px;
+}
+.contenidoOfertaEducativa {
+    background: #f5f5f5;
+    padding-bottom: 295px;
+    padding-top: 32px;
+}
+.btnuaeh-lg-atras {
+    display: block;
+    padding: 4px 0px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 91px;
+    height: 20px;
+    background-color: #800101;
+    color: white;
+    line-height: 21px;
+    margin-right: -53%;
+    margin-left: 81%;
+    margin-top: -28%;
+    margin-bottom: 35%;
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Cinzel";
+    transition: 0.3s all;
+}
+} 
+
+@media (max-width: 767px){
+  .hidden-xs {
+    display: none!important;
+  }
+  #encabezado_uaeh {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-family: "Cinzel", serif;
+    font-size: 22px;
+}
+}
+
+@media (min-width: 1024px) {
+ .container {
+    position: absolute;
+    top: 48%;
+    left: 86%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-profesorado {
+    position: absolute;
+    top: 48%;
+    left: 86%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+  .container-Sub{
+    position: absolute;
+    top: 28%;
+    left: 86%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-Sub-profesorado {
+    position: absolute;
+    top: 41%;
+    left: 86%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+  .hero-image {
+    position: relative;
+    height: 520px;
+    overflow: hidden;
+    background: url(../_img/alumnadonvo.jpg) no-repeat center;
+    background-size: cover;
+} 
+.hero-image-profesorado{
+    position: relative;
+    height: 520px;
+    overflow: hidden;
+    background: url(../_img/profesoradogd.jpg) no-repeat center;
+    background-size: cover;  
+}
+  .btn {
+    display: block;
+    color: #313131;
+    margin: 5px;
+    width: 248px;
+    padding: 10px 24px;
+    font-size: 17px;
+    text-align: left;
+    text-decoration: none;
+    background: #FF9966;
+    border-radius: 8px;
+    transition: 0.3s all;
+    z-index: -2;
+}
+  .btn-atras {
+    display: block;
+    color: #313131;
+    margin: 10px 0 77px 175px;
+    width: 80px;
+    padding: 10px 24px;
+    font-size: 17px;
+    text-decoration: none;
+    background: #FF9966;
+    border-radius: 8px;
+    transition: 0.3s all;
+    z-index: -2;
+}
+  #botongarza {
+    background-image: url(../_img/Garza.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 24px;
+    display: inline-block;
+    padding: 10px 15px 10px 37px;
+}
+.contenidoOfertaEducativa {
+    background: #f5f5f5;
+    padding-bottom: 260px;
+    padding-top: 31px;
+}
+.btnuaeh-lg-atras {
+    display: block;
+    padding: 4px 0px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 91px;
+    height: 20px;
+    background-color: #800101;
+    color: white;
+    line-height: 21px;
+    margin-right: -53%;
+    margin-left: 73%;
+    margin-top: -19%;
+    margin-bottom: 23%;
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Cinzel";
+    transition: 0.3s all;
+}
+}
+@media (min-width: 1440px) {
+ .container {
+    position: absolute;
+    top: 48%;
+    left: 85%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-profesorado {
+ position: absolute;
+    top: 48%;
+    left: 85%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-Sub {
+    position: absolute;
+    top: 25%;
+    left: 86%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-Sub-profesorado {
+    position: absolute;
+    top: 37%;
+    left: 86%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+  .hero-image {
+    position: relative;
+    height: 637px;
+    overflow: hidden;
+    background: url(../_img/alumnadonvo.jpg) no-repeat center;
+    background-size: cover;
+} 
+.hero-image-profesorado{
+    position: relative;
+    height: 637px;
+    overflow: hidden;
+    background: url(../_img/profesoradogd.jpg) no-repeat center;
+    background-size: cover;  
+}
+  .btn {
+    display: block;
+    color: #313131;
+    margin: 5px;
+    width: 348px;
+    padding: 10px 24px;
+    font-size: 23px;
+    text-align: left;
+    text-decoration: none;
+    background: #FF9966;
+    border-radius: 8px;
+    transition: 0.3s all;
+    z-index: -2;
+}
+  .btn-atras {
+    display: block;
+    color: #313131;
+    margin: 10px 0 77px 186px;
+    width: 90px;
+    padding: 10px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    background: #FF9966;
+    border-radius: 8px;
+    transition: 0.3s all;
+    z-index: -2;
+}
+  #botongarza {
+    background-image: url(../_img/Garza.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 24px;
+    display: inline-block;
+    padding: 10px 15px 10px 37px;
+}
+.contenidoOfertaEducativa {
+    background: #f5f5f5;
+    padding-bottom: 300px;
+    padding-top: 32px;
+}
+.btnuaeh-lg-atras {
+    display: block;
+    padding: 4px 0px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 91px;
+    height: 20px;
+    background-color: #800101;
+    color: white;
+    line-height: 21px;
+    margin-right: -53%;
+    margin-left: 84%;
+    margin-top: -10%;
+    margin-bottom: 5%;
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Cinzel";
+    transition: 0.3s all;
+}
+}
+@media (min-width: 1919px) {
+ .container {
+    position: absolute;
+    top: 48%;
+    left: 85%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-profesorado {
+    position: absolute;
+    top: 48%;
+    left: 85%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-Sub-profesorado {
+    position: absolute;
+    top: 34%;
+    left: 86%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+  .hero-image {
+    position: relative;
+    height: 844px;
+    overflow: hidden;
+    background: url(../_img/alumnadonvo.jpg) no-repeat center;
+    background-size: cover;
+} 
+.hero-image-profesorado {
+    position: relative;
+    height: 844px;
+    overflow: hidden;
+    background: url(../_img/profesoradogd.jpg) no-repeat center;
+    background-size: cover;  
+}
+  .btn {
+    display: block;
+    color: #313131;
+    margin: 7px;
+    width: 496px;
+    padding: 10px 24px;
+    font-size: 30px;
+    text-align: left;
+    text-decoration: none;
+    background: #FF9966;
+    border-radius: 8px;
+    transition: 0.3s all;
+    z-index: -2;
+  }
+  .btn-atras {
+    display: block;
+    color: #313131;
+    margin: 10px 0 77px 404px;
+    width: 90px;
+    padding: 10px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    background: #FF9966;
+    border-radius: 8px;
+    transition: 0.3s all;
+    z-index: -2;
+}
+  #botongarza {
+    background-image: url(../_img/Garza.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 37px;
+    display: inline-block;
+    padding: 10px 15px 10px 37px;
+}
+.container-Sub {
+    position: absolute;
+    top: 25%;
+    left: 86%;
+    padding-right: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+}
